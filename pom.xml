@@ -8,7 +8,7 @@
 	</parent>
 
 	<name>Chart.js Library</name>
-	<artifactId>fujion-chart-js</artifactId>
+	<artifactId>webjar-chart-js</artifactId>
 	<version>2.7.2-SNAPSHOT</version>
 	<description>Chart.js graphing library.</description>
 	
