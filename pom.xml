@@ -9,7 +9,7 @@
 
 	<name>Chart.js Library</name>
 	<artifactId>webjar-chart-js</artifactId>
-	<version>2.7.2-SNAPSHOT</version>
+	<version>2.7.2</version>
 	<description>Chart.js graphing library.</description>
 	
 	<properties>
@@ -32,10 +32,10 @@
 						<id>precompile</id>
 						<configuration>
 							<target>
-								<get src="${src.url}" dest="${src.zipdir}/src.zip"/>
+								<get src="${src.url}" dest="${src.zipdir}/src.zip" />
 								<unzip src="${src.zipdir}/src.zip" dest="${src.tmpdir}" />
 								<move todir="${webjar.target}">
-									<fileset dir="${src.tmpdir}" excludes='samples/**'/>
+									<fileset dir="${src.tmpdir}" excludes="samples/**" />
 								</move>
 							</target>
 						</configuration>
@@ -44,4 +44,8 @@
 			</plugin>
 		</plugins>
 	</build>
+
+  <scm>
+    <tag>2.7.2</tag>
+  </scm>
 </project>
