@@ -9,7 +9,7 @@
 
 	<name>Chart.js Library</name>
 	<artifactId>webjar-chart-js</artifactId>
-	<version>2.7.3-SNAPSHOT</version>
+	<version>2.7.3</version>
 	<description>Chart.js graphing library.</description>
 	
 	<properties>
@@ -44,4 +44,8 @@
 			</plugin>
 		</plugins>
 	</build>
+
+  <scm>
+    <tag>2.7.3</tag>
+  </scm>
 </project>
