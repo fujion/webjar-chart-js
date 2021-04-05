@@ -1,5 +1,5 @@
 {
   "paths": {
-    "chart-js": "Chart.js"
+    "chart-js": "dist/chart.js"
   }
 }
