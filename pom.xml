@@ -9,7 +9,7 @@
 
 	<name>Chart.js Library</name>
 	<artifactId>webjar-chart-js</artifactId>
-	<version>2.9.4</version>
+	<version>3.0.2</version>
 	<description>Chart.js graphing library.</description>
 	
 	<build>
