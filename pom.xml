@@ -9,7 +9,7 @@
 
 	<name>Chart.js Library</name>
 	<artifactId>webjar-chart-js</artifactId>
-	<version>2.9.3-1</version>
+	<version>3.2.0</version>
 	<description>Chart.js graphing library.</description>
 	
 	<build>
@@ -43,8 +43,7 @@
 						<configuration>
 							<target>
 								<copy todir="${webjar.target}">
-									<fileset dir="${src.rootdir}/node_modules/chart.js" includes="*.md" />
-									<fileset dir="${src.rootdir}/node_modules/chart.js/dist" includes="*.*" />
+									<fileset dir="${src.rootdir}/node_modules/chart.js" includes="*.md,dist/" />
 								</copy>
 							</target>
 						</configuration>
