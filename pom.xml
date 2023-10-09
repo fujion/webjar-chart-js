@@ -4,12 +4,12 @@
 	<parent>
 		<groupId>org.fujion.webjars</groupId>
 		<artifactId>fujion-webjars</artifactId>
-		<version>3.0.0</version>
+		<version>3.2.0-SNAPSHOT</version>
 	</parent>
 
 	<name>Chart.js Library</name>
 	<artifactId>webjar-chart-js</artifactId>
-	<version>3.9.1</version>
+	<version>4.4.0-SNAPSHOT</version>
 	<description>Chart.js graphing library.</description>
 	
 	<build>
