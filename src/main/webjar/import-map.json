@@ -1,5 +1,5 @@
 {
   "imports": {
-    "chart-js": "dist/chart.js"
+    "chart-js": "dist/chart.umd.js"
   }
 }
